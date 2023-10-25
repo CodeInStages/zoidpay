@@ -13,6 +13,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 22px 43px;
+}
+
+.options {
+    display: flex;
+}
+
+.logoName {
+    color: #19191B;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 10px;
 }
 
 .action {
@@ -27,5 +39,5 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    
+
 }
