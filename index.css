@@ -46,9 +46,14 @@ header {
     margin-right: 2.4rem;
 }
 
-.navLinks li a{
+a{
     color: #19191B;
     font-weight: 600;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #5454D4;
 }
 
 .logo {
@@ -66,5 +71,19 @@ header {
     background: linear-gradient(97deg, #5656F2 0%, #3333DC 101.64%);
     box-shadow: 0px 4px 10px 0px #E7E7FB;
     border: none;
+    cursor: pointer;
 }
 
+.action button:nth-child(3) {
+    color: #3939E0;
+    border-radius: 7px;
+    background: #E7E7FB;
+    margin-left: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
