@@ -7,6 +7,7 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 header {
@@ -86,4 +87,32 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding-left: 3.125rem;
+    
+}
+
+.mainTitle {
+    color: #19191B;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 91px;
+    margin-bottom: 50px;
+}
+
+.container span {
+    color: #3535DD;
+}
+
+.mainImg {
+    width: 614px;
+}
+
+.mainButton {
+    color: #FFF;
+    padding: 17px 40px;
+    border: none;
+    border-radius: 8.936px;
+    background: linear-gradient(97deg, #5656F2 0%, #3333DC 101.64%);
+    box-shadow: 0px 5px 12.7px 0px #E7E7FB;
+    cursor: pointer;
 }
